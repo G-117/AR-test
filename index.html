@@ -6,16 +6,16 @@
   <body style="margin: 0; overflow: hidden;">
     <a-scene embedded arjs vr-mode-ui="enabled: false">
       <a-marker preset="hiro">
-        <!-- Sfondo del riquadro -->
-        <a-plane position="0 0 0.3" width="1.5" height="0.8" color="white" rotation="-90 0 0"></a-plane>
+    <!-- Sfondo del riquadro -->
+    <a-plane position="0 0 0.3" width="1.5" height="0.8" color="white" rotation="-90 0 0"></a-plane>
 
-    <!-- Titolo (ruotato di 90°) -->
-        <a-text value="Regalato da Gabriele" position="0 0.2 0.31" align="center" color="black" width="2" rotation="-90 0 0"></a-text>
+    <!-- Titolo (più in alto) -->
+    <a-text value="Titolo" position="0 0.45 0.31" align="center" color="black" width="1.5" rotation="-90 0 0"></a-text>
 
-    <!-- Paragrafo (ruotato di 90°) -->
-        <a-text value="Uno dei sottobicchieri più significativi della collezione è questo, poiché è stato dotato alla gallarie dal fratello della proprietaria." 
-            position="0 0 0.25" align="center" color="black" width="1.4" rotation="-90 0 0"></a-text>
-      </a-marker>
+    <!-- Paragrafo (spostato leggermente in avanti per evitare sfarfallio) -->
+    <a-text value="Questo è un piccolo paragrafo con informazioni." 
+            position="0 0.25 0.32" align="center" color="black" width="1.4" rotation="-90 0 0"></a-text>
+  </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
   </body>
