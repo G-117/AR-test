@@ -5,10 +5,8 @@
   </head>
   <body style="margin: 0; overflow: hidden;">
     <a-scene embedded arjs vr-mode-ui="enabled: false">
-      <a-marker type="pattern" url="pattern-quadromio.patt">
-        <a-text value="Benvenuto!" color="red" position="0 1 0" scale="1 1 1">
-          <a-animation attribute="position" to="0 1.5 0" dur="1000" direction="alternate" repeat="indefinite"></a-animation>
-        </a-text>
+      <a-marker preset="hiro">
+        <a-text value="Funziona!" color="red" position="0 1 0"></a-text>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
